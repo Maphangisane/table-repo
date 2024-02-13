@@ -1,0 +1,23 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.table{
+    border: 1px solid #bbb;
+}
+.page-row{
+    display:flex;
+    justify-content: space-between;
+}
+.field-name{
+    border-left: 1px solid #bbb;
+    text-align: center;
+    width: 100%;
+}
+.field-name:first-child{
+    border-left: none;
+}
+.field-row {
+    border-bottom: 1px solid #bbb;
+}
